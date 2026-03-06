@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:15
+    container_name: pdv_postgres
+    restart: always
+
+    environment:
+      POSTGRES_DB: pdvdb
+      POSTGRES_USER: pdvuser
+      POSTGRES_PASSWORD: pdvpassword
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:
