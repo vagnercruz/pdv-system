@@ -2,7 +2,13 @@ com/pdv/PdvApplication.class
 com/pdv/dto/UserCreateDTO.class
 com/pdv/entity/User.class
 com/pdv/repository/UserRepository.class
-com/pdv/service/UserService.class
-com/pdv/controller/HealthController.class
 com/pdv/entity/User$UserBuilder.class
 com/pdv/controller/UserController.class
+com/pdv/security/JwtService.class
+com/pdv/dto/LoginResponseDTO.class
+com/pdv/dto/LoginRequestDTO.class
+com/pdv/service/UserService.class
+com/pdv/controller/HealthController.class
+com/pdv/service/AuthService.class
+com/pdv/config/SecurityBeansConfig.class
+com/pdv/controller/AuthController.class
