@@ -1,2 +1,8 @@
-com/pdv/controller/HealthController.class
 com/pdv/PdvApplication.class
+com/pdv/dto/UserCreateDTO.class
+com/pdv/entity/User.class
+com/pdv/repository/UserRepository.class
+com/pdv/service/UserService.class
+com/pdv/controller/HealthController.class
+com/pdv/entity/User$UserBuilder.class
+com/pdv/controller/UserController.class
